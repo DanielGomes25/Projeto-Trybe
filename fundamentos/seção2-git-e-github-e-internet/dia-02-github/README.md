@@ -1,0 +1,1 @@
+Um dia de estudos dedicado para aprednder a usar o github da melhor maneira.

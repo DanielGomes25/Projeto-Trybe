@@ -1,3 +1,23 @@
-.minhaFoto {
-    width: 100px;
-}
+h2 {
+    color: blue
+  }
+  body{
+    background-color: aliceblue;
+    font-size: 20px;
+  }
+  #list { 
+    color: blueviolet;
+  }
+  .list-style {
+    background-color: brown;
+    color: aliceblue;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: underline;
+
+  }
+  p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }

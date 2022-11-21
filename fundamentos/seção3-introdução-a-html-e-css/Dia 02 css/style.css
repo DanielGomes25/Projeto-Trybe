@@ -30,3 +30,7 @@ h2 {
   height: 300px;
   overflow: auto;
   }
+  li:hover {
+    background-color: chartreuse;
+  }
+  

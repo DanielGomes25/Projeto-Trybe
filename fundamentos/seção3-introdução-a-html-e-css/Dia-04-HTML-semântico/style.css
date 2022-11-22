@@ -11,3 +11,11 @@ p, ul {
     line-height: 25px;
 
 }
+.navigation {
+    
+}
+h1,h2,h3 {
+    background-color: aliceblue;
+    font-style: italic;
+    color: blue
+}

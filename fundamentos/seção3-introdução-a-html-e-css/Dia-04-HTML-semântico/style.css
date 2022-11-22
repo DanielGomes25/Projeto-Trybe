@@ -2,7 +2,7 @@
     width: 300px;;
 }
 body {
-    background-color:cornsilk
+    background-color bottom:
 }
 p, ul {
     text-justify: auto;
@@ -17,5 +17,7 @@ p, ul {
 h1,h2,h3 {
     background-color: aliceblue;
     font-style: italic;
+    text-align: center;
     color: blue
+    
 }

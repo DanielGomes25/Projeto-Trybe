@@ -1,0 +1,36 @@
+h2 {
+    color: blue
+  }
+  body{
+    background-color: aliceblue;
+    font-size: 20px;
+  }
+  #list { 
+    color: blueviolet;
+  }
+  .list-style {
+    background-color: brown;
+    color: aliceblue;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: underline;
+
+  }
+  p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .css {
+    color: blue;
+  }
+  .paragrafos {
+  text-decoration-style: dashed;
+  width: 80%;
+  height: 300px;
+  overflow: auto;
+  }
+  li:hover {
+    background-color: chartreuse;
+  }
+  

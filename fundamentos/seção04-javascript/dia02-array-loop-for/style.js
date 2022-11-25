@@ -15,3 +15,15 @@ if (media >= 20){
  } else {
         console.log('Valor menor que 20');
    } 
+
+   
+   let highterNumber = numbers[0];
+   
+   for (let maior = 1; maior < numbers.length; maior += 1) {
+    if (numbers[maior] > highterNumber) {
+        highterNumber = numbers[maior]
+    }
+
+
+   }
+console.log(highterNumber);

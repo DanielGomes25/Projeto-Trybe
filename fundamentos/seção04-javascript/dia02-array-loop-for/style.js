@@ -56,3 +56,7 @@ for (let index = 1; index <= 25; index += 1){
     numbers1A25.push(index);
 }
 console.log(numbers1A25);
+
+for (index = 0; index < numbers1A25.length; index += 1) {
+    console.log(numbers1A25[index] / 2);
+}

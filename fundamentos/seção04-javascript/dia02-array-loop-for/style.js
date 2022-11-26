@@ -28,15 +28,24 @@ let soma = 0;
 //    }
 // console.log(highterNumber);
 
-let quantidadeImpar = 0;
+// let quantidadeImpar = 0;
 
-for (let index = 0; index < numbers.length; index += 1){
-    if (numbers[index] % 2 !== 0){
-        quantidadeImpar += 1;
+// for (let index = 0; index < numbers.length; index += 1){
+//     if (numbers[index] % 2 !== 0){
+//         quantidadeImpar += 1;
+//     }
+// }
+// if (quantidadeImpar === 0) {
+//     console.log('nenhum valor impar encontrado') 
+// }else {
+//             console.log(quantidadeImpar);
+//     }
+
+let smallerNumber = numbers[0];
+
+for (let index = 1; index < numbers.length; index += 1) {
+    if (numbers[index] < smallerNumber){
+        smallerNumber = numbers[index];
     }
 }
-if (quantidadeImpar === 0) {
-    console.log('nenhum valor impar encontrado') 
-}else {
-            console.log(quantidadeImpar);
-    }
+console.log(smallerNumber);

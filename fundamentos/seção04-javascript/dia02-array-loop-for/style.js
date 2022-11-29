@@ -50,13 +50,26 @@
 // }
 // console.log(smallerNumber);
 
-let numbers1A25 = [];
+// let numbers1A25 = [];
 
-for (let index = 1; index <= 25; index += 1){
-    numbers1A25.push(index);
-}
-console.log(numbers1A25);
+// for (let index = 1; index <= 25; index += 1){
+//     numbers1A25.push(index);
+// }
+// console.log(numbers1A25);
 
-for (index = 0; index < numbers1A25.length; index += 1) {
-    console.log(numbers1A25[index] / 2);
+// for (index = 0; index < numbers1A25.length; index += 1) {
+//     console.log(numbers1A25[index] / 2);
+// }
+let numbers = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+
+for (let index = 1; index < numbers.length; index += 1) {
+    for (let secondeIndex = 0; secondeIndex < numbers.length; secondeIndex += 1){
+        if (numbers[index] < numbers[secondeIndex]){
+ 
+            let position = numbers[index];
+        numbers[index] = numbers[secondeIndex];
+        numbers[secondeIndex] = position;
+        }
+    }
 }
+console.log(numbers);

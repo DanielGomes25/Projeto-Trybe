@@ -33,30 +33,39 @@
 //     console.log(key, car[key]);
 //   }
 
-function sum(a, b, c){
-    if (a > b && c){
-        return a + ' é maior que ' + b + ' e ' + c;
-    } else if (b > a && c){
-        return b + ' é maior que ' + a + ' e ' + c;
+// function sum(a, b, c){
+//     if (a > b && c){
+//         return a + ' é maior que ' + b + ' e ' + c;
+//     } else if (b > a && c){
+//         return b + ' é maior que ' + a + ' e ' + c;
+//     } else {
+//         return c + ' é maior que todos';
+//     }
+// }
+// function subtraction(a, b){
+//     return a - b;
+// }
+// function multiplication(a, b){
+//     return a * b;
+// }
+// function division(a, b){
+//     return a / b;
+// }
+// function module(a, b){
+//     return a % b;
+// }
+
+// console.log(sum(70, 51, 50));
+// console.log(subtraction(10, 5));
+// console.log(multiplication(5, 10));
+// console.log(division(10, 10));
+// console.log(module(20, 1));
+
+function trueOrFalse (a, b){
+    if (a == 2){
+        return true;
     } else {
-        return c + ' é maior que todos';
+        return false;
     }
 }
-function subtraction(a, b){
-    return a - b;
-}
-function multiplication(a, b){
-    return a * b;
-}
-function division(a, b){
-    return a / b;
-}
-function module(a, b){
-    return a % b;
-}
-
-console.log(sum(70, 51, 50));
-console.log(subtraction(10, 5));
-console.log(multiplication(5, 10));
-console.log(division(10, 10));
-console.log(module(20, 1));
+console.log(trueOrFalse(1, 2));

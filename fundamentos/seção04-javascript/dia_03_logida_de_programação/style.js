@@ -26,7 +26,7 @@
 // }
 // console.log(resultado)
 
-let array = ['java', 'javascript', 'python', 'html', 'css'];
+// let array = ['java', 'javascript', 'python', 'html', 'css'];
 
 // let biggestWord = array[0];
 // let smallestWord = array[0];
@@ -53,18 +53,27 @@ let array = ['java', 'javascript', 'python', 'html', 'css'];
 // }
 // console.log(biggestPrimeNumber);
 
-let biggestPrimeNumber = 0;
+// let biggestPrimeNumber = 0;
 
-for (let currentNumber = 2; currentNumber <= 50; currentNumber += 1) {
-  let isPrime = true;
-  for (let currentDivisor = 2; currentDivisor < currentNumber; currentDivisor += 1) {
-    if (currentNumber % currentDivisor === 0) {
-      isPrime = false;
-    }
-  }
-  if (isPrime) {
-    biggestPrimeNumber = currentNumber;
-  }
-}
+// for (let currentNumber = 2; currentNumber <= 50; currentNumber += 1) {
+//   let isPrime = true;
+//   for (let currentDivisor = 2; currentDivisor < currentNumber; currentDivisor += 1) {
+//     if (currentNumber % currentDivisor === 0) {
+//       isPrime = false;
+//     }
+//   }
+//   if (isPrime) {
+//     biggestPrimeNumber = currentNumber;
+//   }
+// }
 
-console.log(biggestPrimeNumber);
+// console.log(biggestPrimeNumber);
+n = 5
+
+*****
+*****
+*****
+*****
+*****
+
+console.log(n);

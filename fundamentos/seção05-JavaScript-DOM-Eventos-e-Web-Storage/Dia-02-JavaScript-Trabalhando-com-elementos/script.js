@@ -40,22 +40,44 @@ elementMain.appendChild(elementSection3);
 
 const image = document.createElement('img');
 image.className = 'small-image';
-image.src = 'image.png';
-image.appendChild(elementSection3);
+image.src = 'https://picsum.photos/200';
+elementSection1.appendChild(image);
 
 
 // Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, … como valores da lista. Essa lista deve ser filha do section criado no passo 6;
 
+const listUl = document.createElement('ul');
+elementSection3.appendChild('listUl');
+const arrayNumber = ['Um', 'Dois', 'Tres', 'Quatro', 'Cinco', 'Seis', 'Sete', 'Oito', 'Nove', 'Dez'];
+for (let index of arrayNumber) {
+    const elementL1 = document.createElement('li');
+    elementL1.innerHTML = arrayNumber[index];
+    elementUl.appendChild(elementL1);
+};
+
+
 
 // Adicione 3 tags h3, todas sendo filhas do main criado no passo 2.
 
+for (let index = 1; index <= 3; index += 1) {
+const elementH3 = document.createElement('h3');
+elementH3.innerHTML = 'show' + index;
+elementMain.appendChild(elementH3);
 
+}
 // Após criar as tags anteriores, você mostrou para a sua liderança como estava a estrutura inicial da página. Sua liderança então pediu para que você fizesse algumas alterações:
 
 // Adicione a classe title na tag h1 criada;
 
+const title = document.querySelector('h1');
+title.className = 'title';
+
 
 // Adicione a classe description nas 3 tags h3 criadas;
+const description = document.getElementsByTagName('h3')
+for (let index = 1; index <= 3; index += 1) {
+    elementH3[index].className = 'descriptiob';
+}
 
 
 // Remova a section criada no passo 5 (aquele que possui a classe left-content). Utilize a função .removeChild();
